@@ -1,0 +1,6 @@
+2. Contact Us
+	>Email - mailto
+	>Form - fill in later
+
+1. Remove Communication from nav bar
+

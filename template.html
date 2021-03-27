@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rapid Tech Solutions From the Bayou</title>
+    <!-- External Style Sheet Reference -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon Reference -->
+    <link rel="icon" href="favicon.ico">
+    <!-- Reference to our font families -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Stalinist+One&display=swap" rel="stylesheet">
+    <style>
+      .mainLogo{
+        position: relative;
+        float: left;
+        width:  100%;
+        height: 400px;
+        object-fit: cover; /*allows the image no to be squished*/
+      }
+
+      .mainLogoText{
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        color: rgb(255, 255, 255);
+        font-size:66px;
+        font-family:'Montserrat', sans-serif;
+        font-variant: small-caps;
+      }
+    </style>
+  </head>
+  <body onload="fadeOnLoad()">
+
+    <!-- This is the navigation bar -->
+    <!-- need a dropbox here -->
+    <div class="topContainer">
+      <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+      <ul class="">
+        <li class="contactElement">
+          <a class="dropbtn" href="">Contact Us</a>
+          <ul class="vertialUList">
+            <li class="verticalList">
+              <a href="">Email</a>
+            </li>
+            <li class="verticalList">
+              <a href="">Phone</a>
+            </li>
+          </ul>
+        </li>
+        <li class="">
+          <a class="" href="market.html">Marketing</a>
+        </li>
+        <li class="">
+          <a class="" href="cybersecurity.html">Cybersecurity</a>
+        </li>
+        <li class="">
+          <a class="" href="tech.html">Technology</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- This will be where we input the main picture for the page-->
+    <!-- The picture is in the images folder, make it the length of the Container
+    and put some text over it that reads = "Solving your Tech Problems since 20XX" -->
+    <img class="mainLogo" src="images/tech.jpg"/>
+
+    <h1>Title</h1>
+
+
+    <!-- ideally this will look much better once we have the carousel in -->
+    <!-- This is the bottom container that holds our links and copyright date -->
+    <div class="bottom-container">
+      <a class="footer-link" href="https://twitter.com" target="_blank">Twitter</a>
+      <a class="footer-link" href="https://www.mcneese.edu/" target="_blank">Our Alma Mater</a>
+      <a class="footer-link" href="https://www.duelingbook.com/" target="_blank">Our Hobbies</a>
+
+      <p class="copyright">&#169; 2021 The Narwhals.</p>
+    </div>
+  </body>
+</html>

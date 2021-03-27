@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Authors: Drew Kyle, Frank Obioma, Max Ferguson, Tyler Trahan-->
+    <!-- Date: April 1, 2021 -->
+    <meta charset="utf-8">
+    <title>Rapid Tech Solutions From the Bayou</title>
+    <!-- External Style Sheet Reference -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon Reference -->
+    <link rel="icon" href="favicon.ico">
+    <!-- Reference to our font families -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Stalinist+One&display=swap" rel="stylesheet">
+
+    <style>
+      /* This is the embedded style sheet */
+
+      /* Sets the position of the main graphic */
+      .mainGraphic{
+        position: relative;
+        width:  100%;
+      }
+
+      /* Sets the position of and styles the text in the main graphic */
+      .mainGraphicText{
+        position: absolute;
+        left: 20%;
+        top: 30%;
+        color: rgb(255, 255, 255);
+        font-size:66px;
+        font-family:'Montserrat', sans-serif;
+        font-variant: small-caps;
+      }
+    </style>
+  </head>
+
+  <body onload="fadeOnLoad()">   <!--Calls a jQuery function to fade in the text on the main graphic-->
+
+    <!-- This is the navigation bar -->
+    <!-- nav functions the same as a div -->
+    <nav class="topContainer">
+      <!-- logo in the navbar -->
+      <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+      <ul class="">
+        <li class="contactElement">
+          <a class="dropbtn" href="">Contact Us</a>
+          <!-- Dropdown list from the Contact Us Tab -->
+          <ul class="vertialUList">
+            <li class="verticalList">
+              <a href="mailto:randerson@mcneese.edu?subject=Sample%20Message">Email</a>
+            </li>
+            <li class="verticalList">
+              <!-- The contact form will be implemented once the backend is implemented, it is only a placeholder at this point -->
+              <a href="">Contact Form</a>
+            </li>
+          </ul>
+        </li>
+        <!-- The rest of the tabs on the navbar -->
+        <li class="">
+          <a class="" href="market.html">Marketing</a>
+        </li>
+        <li class="">
+          <a class="" href="cybersecurity.html">Cybersecurity</a>
+        </li>
+        <li class="">
+          <a class="" href="tech.html">Technology</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- This will be where we input the main picture for the page-->
+    <!-- The picture is in the images folder -->
+    <img class="mainGraphic" src="images/biglogo.jpeg"/>
+    <h1 class="mainGraphicText" >Solving Your Tech Problems Since <i>20XX</i></h1>
+
+    <!--page content-->
+    <div class="whatWeDoContainer">
+      <!-- INLINE STYLE -->
+      <h1 style="text-align: center;"><b>What We Do</b></h1>
+      <div class="">
+        <div class="whatWeDoInformationRow">
+          <img class="computer-img" src="images/computer.png" alt="computer-img">
+
+          <!-- Column 1 -->
+          <h3><u>Tech Fixes</u></h3>
+          <!-- Filler Text -->
+          <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper, ligula sed aliquam commodo,
+            tortor mauris condimentum lacus, eu porta elit eros ac lectus. In maximus sapien eu tempor bibendum.</p>
+          <!-- Filler Text -->
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+        <div class="whatWeDoInformationRow">
+          <img class="computer-img" src="images/hard_drive.png" alt="hard_drive-img">
+
+          <!-- Column 2 -->
+          <h3><u>Management</u></h3>
+          <!-- Filler Text -->
+          <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper, ligula sed aliquam commodo,
+            tortor mauris condimentum lacus, eu porta elit eros ac lectus. In maximus sapien eu tempor bibendum.</p>
+          <!-- Filler Text -->
+          <p class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+            quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="lcText">
+      <!-- Communities Tab, info about our communities -->
+      <h1>Our Communities</h1>
+
+      <div class="row">
+        <div class="column"> <!--The column class separtes each of these divs into columns with width of 50%, creating two columns -->
+          <h3>Lake Charles</h3>
+          <!-- Filler Text -->
+          <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper, ligula sed aliquam commodo,
+            tortor mauris condimentum lacus, eu porta elit eros ac lectus. In maximus sapien eu tempor bibendum.</p>
+          <!-- Filler Text -->
+          <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+            quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        </div>
+        <div class="column"> <!--The column class separtes each of these divs into columns with width of 50%, creating two columns -->
+          <h3>Sulphur</h3>
+          <!-- Filler Text -->
+          <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper, ligula sed aliquam commodo,
+            tortor mauris condimentum lacus, eu porta elit eros ac lectus. In maximus sapien eu tempor bibendum.</p>
+          <!-- Filler Text -->
+          <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+            quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        </div>
+      </div>
+    </div>
+
+      <!-- section functions the same as a div -->
+      <section class="">
+        <!-- Pictures of our two communities -->
+        <img class="lcPicture" src="images/LakeCharles.jpg" alt="">
+        <img class="lcPicture" src="images/Sulphur.jpg" alt="">
+      </section>
+
+    <!-- This is the bottom container that holds our links and copyright date -->
+    <!-- footer functions the same as a div -->
+    <footer class="bottom-container">
+      <a class="footer-link" href="https://twitter.com" target="_blank">Twitter</a>
+      <a class="footer-link" href="https://www.mcneese.edu/" target="_blank">Our Alma Mater</a>
+      <a class="footer-link" href="https://www.duelingbook.com/" target="_blank">Our Hobbies</a>
+
+      <p class="copyright">&#169; 2021 The Narwhals.</p>
+    </footer>
+
+    <!-- These are our javascript links, the top one is for jQuery, the one under is for our external js file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
